@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div id="div-1"><a href="#" class="text-prop">Welcome</a></div>
+      <span class="div-2"><a href="#book-section" class="text-prop">Books</a></span>
+      <span class="div-2"><a href="#register-section" class="text-prop">Register</a></span>
+      <span class="div-2"><a href="#" class="text-prop">About</a></span>
+      <span class="div-2"><a href="#" class="text-prop">Contact Us</a></span>
+    </header>
+    <br><br><br>
+    <section class="section-1" id="book-section"> 
+        <h1 id="heading-1">Books</h1>
+        <TABLE class="table">
+            <tr>
+                <th>Serial No.</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                
+              </tr>        
+            <TR>
+            <TD> 1 </TD>
+            <TD class="table1">Book1
+                <table>
+                    <tr>
+                        <td>Publication Date:2003</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count:252</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:0567890123</td>
+                    </tr>
+                </table>
+            <TD> Author1</TD>
+            <TD> Horror </TD>
+        
+            </TR>
+            <TR>
+                <TD> 2 </TD>
+                <TD class="table1">Book2
+                    <table>
+                        <tr>
+                            <td>Publication Date:1815</td>
+                        </tr>
+                        <tr>
+                            <td>Page Count:380</td>
+                        </tr>
+                        <tr>
+                            <td>ISBN:0141439580</td>
+                        </tr>
+                    </table>
+                <TD> Author2</TD>
+                <TD> Fictional </TD>
+                
+            </TR>
+            <TD> 3 </TD>
+            <TD class="table1">Book3
+                <table>
+                    <tr>
+                        <td>Publication Date:1895</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count:78</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:0451528557</td>
+                    </tr>
+                </table>
+            <TD> Author3</TD>
+            <TD> Romantic </TD>
+            
+            </TR>
+            <TR>
+                <TD> 4 </TD>
+                <TD class="table1">Book4
+                    <table>
+                        <tr>
+                            <td>Publication Date:1849</td>
+                        </tr>
+                        <tr>
+                            <td>Page Count:167</td>
+                        </tr>
+                        <tr>
+                            <td>ISBN:0834290123</td>
+                        </tr>
+                    </table>
+                <TD> Author4</TD>
+                <TD> History </TD>
+            
+                </TR>
+                <TR>
+                    <TD> 5 </TD>
+                    <TD class="table1">Book5
+                        <table>
+                            <tr>
+                                <td>Publication Date:1871</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count:274</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:0553213970</td>
+                            </tr>
+                        </table>
+                    <TD> Author5 </TD>
+                    <TD> Science Fiction </TD>
+        
+                    </TR>
+          </TABLE>
+        </section>
+        <br><br>
+        <!-- Register section -->
+        <section class="section-2" id="register-section">
+            <form style="background-color: white;">
+            <h1 class="text-bg">Register</h1>
+            <p class="text-bg">First Name:</p>
+            <input type="text" name="firstname" class="input-box" required>
+            <p class="text-bg">Last Name:</p>
+            <input type="text" name="lastname" class="input-box" required>
+            <p class="text-bg">Date of Birth:</p>
+            <input type="date" name="dob" class="input-box" required>
+            <p class="text-bg">Age:</p>
+            <input type="number" min="5" max="100" name="age" class="input-box" required>
+            <p class="text-bg">Email:</p>
+            <input type="email" name="email" class="input-box" required>
+            <p class="text-bg">Password:</p>
+            <input type="password" name="password" class="input-box" required>
+            <p class="text-bg">Confirm Password:</p>
+            <input type="password" name="password" class="input-box" required>
+            <input type="submit" value="Register" class="input-box" id="register">
+        </form>
+        </section>
+  </body>
+</html>
